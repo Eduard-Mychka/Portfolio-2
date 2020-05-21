@@ -1,0 +1,33 @@
+.about {
+   height: 100vh;
+   margin-top: 80px;
+
+   img {
+      width: 250px;
+      position: relative;
+      top: -210px;
+      left: calc(100% - 100px);
+      right: calc(100% - 100px);
+      transform: translateX(calc(-100% + 100px));
+
+   }
+}
+
+.about-me-info {
+   width: 800px;
+   background-color: #252627;
+   box-shadow: 0 0 1.7rem rgba(0, 0, 0, 0.459);
+   padding: 10px 20px;
+   position: relative;
+   top: -50px;
+   left: 50%;
+   right: 50%;
+   transform: translateX(-50%);
+   z-index: 1;
+}
+
+.about-me-info p {
+   font-size: 1.2rem;
+   color: #bebebe;
+
+}
